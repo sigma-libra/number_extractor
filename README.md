@@ -10,7 +10,14 @@ For a bonus challenge if you have time, take natural language guidance from the 
 
 ### Using jupyter notebook
 
-1. Install jupyter notebook: https://jupyter.org/install
-2. Install the python libraries listed at the top of the notebook
-3. Run the notebook
+1. Install python3 and pip3 
+2. Install jupyter notebook: https://jupyter.org/install
+3. Install the python libraries listed at the top of the notebook
+```
+pip install PyPDF2
+pip install numwords_to_nums
+pip install spacy
+python -m spacy download en_core_web_sm
+```
+4. Run the notebook
 
